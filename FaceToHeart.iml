@@ -19,34 +19,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://C:/OpenCV/opencv_processing/library/opencv_processing.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://C:/OpenCV/processing-video/library/video.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="processing-core">
-        <CLASSES>
-          <root url="file://C:/OpenCV/processing-3.4/core/library" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://C:/OpenCV/processing-3.4/core/library" recursive="false" />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="minimall">
         <CLASSES>
           <root url="file://C:/OpenCV/Minim-2.2.2/library" />
@@ -59,34 +31,6 @@
         <jarDirectory url="file://C:/OpenCV/Minim-2.2.2/library" recursive="false" type="SOURCES" />
       </library>
     </orderEntry>
-    <orderEntry type="module-library">
-      <library name="openCVDll">
-        <CLASSES />
-        <JAVADOC />
-        <NATIVE>
-          <root url="file://C:/OpenCV/opencv/build/java/x64" />
-        </NATIVE>
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://C:/OpenCV/gstreamer/gst1-java-core-0.9.3.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="file://C:/OpenCV/jnaplatform" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-        <jarDirectory url="file://C:/OpenCV/jnaplatform" recursive="false" />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="x64" level="project" />
   </component>
 </module>

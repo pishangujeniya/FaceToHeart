@@ -1,3 +1,4 @@
+
 import java.awt.EventQueue;
 import java.awt.Graphics;
 import java.awt.event.WindowAdapter;
@@ -9,10 +10,10 @@ import javax.swing.border.EmptyBorder;
 public class MyFrame extends JFrame {
     private JPanel contentPane;
 
-    private int WINDOW_WIDTH = 640;
-    private int WINDOW_HEIGHT = 480;
+    private int WINDOW_WIDTH = Global.WINDOW_WIDTH;
+    private int WINDOW_HEIGHT = Global.WINDOW_HEIGHT;
 
-    private int FPS = 30;
+    private int FPS = Global.FPS;
 
     private String VIDEO_FILE = "C:\\Users\\pisha\\IdeaProjects\\FaceToBpm\\src\\face_video.mp4";
 
@@ -25,7 +26,8 @@ public class MyFrame extends JFrame {
                 try {
                     MyFrame frame = new MyFrame();
                     frame.videoCap.setFaceTrackingEnable(true);
-                    frame.videoCap.setFORE_HEAD_DETECTION_PERCENTAGE(75);
+                    frame.videoCap.setFORE_HEAD_DETECTION_PERCENTAGE(80);
+                    frame.videoCap.setFACE_DETECTION_PERCENTAGE(100);
                     frame.videoCap.setHeartRateCalculationEnabled(true);
                     frame.setVisible(true);
                 } catch (Exception e) {
