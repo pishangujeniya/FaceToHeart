@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+}
+
+group 'com.pishangujeniya.facetoheart'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+//    flatDir {
+//        dirs 'libs'
+//    }
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+
+//    files('libs/opencv-410.jar')
+//    files('libs/minim-2.2.2.jar')
+
+
+//    implementation "ddf.minim:ddf.minim:2.2.0"
+//    implementation 'net.compartmental.code:minim:2.2.2'
+//    implementation 'org.bytedeco:opencv:4.0.1-1.5'
+}

@@ -27,9 +27,18 @@ What things you need for development.
 Below are the minimum libraries required for development :
 
 * [OpenCV 3.4.2](https://opencv.org/releases.html) 
-* [Minim 2.2.2](https://github.com/ddf/Minim/releases) 
+* [Minim 2.2.2](https://github.com/ddf/Minim/releases)
 
-## Face Detection
+- Minim can be added in gradle via this [link](https://search.maven.org/artifact/net.compartmental.code/minim/2.2.2/jar)
+
+- If you are getting below exception then try to set path environment variable to the x64 version of opencv_java410.dll
+- `MyFrame.main()
+   Exception in thread "AWT-EventQueue-0" java.lang.UnsatisfiedLinkError: no opencv_java410 in java.library.path `
+- After setting path variable to the location of dll directory, you might need to restart the computer.
+
+
+
+### Face Detection
 
 Face Detection is processed with [HaarCascade](https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_frontalface_alt.xml) 
 
